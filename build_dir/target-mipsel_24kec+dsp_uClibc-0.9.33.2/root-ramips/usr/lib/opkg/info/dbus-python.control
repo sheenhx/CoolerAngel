@@ -1,0 +1,8 @@
+Package: dbus-python
+Version: 0.83.0-3
+Depends: libc, python, python-expat, libdbus-glib
+Source: feeds/oldpackages/lang/python-dbus
+Section: lang
+Architecture: ramips_24kec
+Installed-Size: 74641
+Description:  Python bindings for dbus.

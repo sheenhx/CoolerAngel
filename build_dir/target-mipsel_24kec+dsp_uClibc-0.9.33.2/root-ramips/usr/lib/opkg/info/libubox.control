@@ -1,0 +1,10 @@
+Package: libubox
+Version: 2015-01-28-827ad8337e88ec9e0bf73a8af1d6cf8555e8ef3d
+Depends: libc
+Source: package/libs/libubox
+License: ISC
+Section: libs
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ramips_24kec
+Installed-Size: 16711
+Description:  Basic utility library

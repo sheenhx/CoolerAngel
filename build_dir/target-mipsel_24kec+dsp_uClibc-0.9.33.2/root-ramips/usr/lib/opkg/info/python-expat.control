@@ -1,0 +1,10 @@
+Package: python-expat
+Version: 2.7.3-2
+Depends: libc, python-mini, libexpat
+Source: feeds/oldpackages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Architecture: ramips_24kec
+Installed-Size: 60953
+Description:  Python support for expat

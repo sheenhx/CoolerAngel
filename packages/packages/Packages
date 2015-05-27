@@ -1,0 +1,200 @@
+Package: dbus
+Version: 1.9.14-1
+Depends: libc, libexpat, libdbus
+Source: feeds/packages/utils/dbus
+License: AFL-2.1
+Section: utils
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ramips_24kec
+Installed-Size: 92890
+Filename: dbus_1.9.14-1_ramips_24kec.ipk
+Size: 93292
+MD5Sum: 8feda58158f55e70e6e89fffd53719c6
+SHA256sum: 1471636901784bcaaeff1ff06e5c4203ed00e38113e87e93c04b322881b63aa3
+Description:  Simple interprocess messaging system (daemon)
+
+Package: glib2
+Version: 2.43.4-1
+Depends: libc, zlib, libpthread, libffi, libattr
+Source: feeds/packages/libs/glib2
+Section: libs
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: ramips_24kec
+Installed-Size: 872130
+Filename: glib2_2.43.4-1_ramips_24kec.ipk
+Size: 867864
+MD5Sum: 5b55a0a8f79653492cf51e5f657825f6
+SHA256sum: b19dd7eeabd188d911065617aa24f701fc77e1a4379d7bd23ead6446dea8d6be
+Description:  The GLib library of C routines
+
+Package: libattr
+Version: 20150220-1
+Depends: libc
+Source: feeds/packages/utils/attr
+License: LGPL-2.1 GPL-2.0
+LicenseFiles: doc/COPYING doc/COPYING.LGPL
+Section: libs
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: ramips_24kec
+Installed-Size: 6460
+Filename: libattr_20150220-1_ramips_24kec.ipk
+Size: 7269
+MD5Sum: 44e477514d43989e9b41bbaf3071e687
+SHA256sum: 29c29d76fe9f77796afe21dafcce522fd6d5be3e421bf20e7e9b789c7df77ff6
+Description:  Extended attributes support
+ This package provides libattr
+
+Package: libcares
+Version: 1.10.0-1
+Depends: libc
+Source: feeds/packages/libs/c-ares
+License: MIT
+Section: libs
+Maintainer: Karl Palsson <karlp@remake.is>
+Architecture: ramips_24kec
+Installed-Size: 27168
+Filename: libcares_1.10.0-1_ramips_24kec.ipk
+Size: 28009
+MD5Sum: 7be0e6665a85164c3ffb2425df7d55f0
+SHA256sum: c208e88906f1f18f7b53da9c97a9f206a3ea8a07860aa4cf7a58466d341d907f
+Description:  c-ares is a C library for asynchronous DNS requests (including name resolves)
+ 
+ C89 compatibility, MIT licensed, builds for and runs on POSIX, Windows,
+ Netware, Android and many more operating systems.
+ 
+
+Package: libdbus
+Version: 1.9.14-1
+Depends: libc, libpthread
+Source: feeds/packages/utils/dbus
+License: AFL-2.1
+Section: utils
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ramips_24kec
+Installed-Size: 102777
+Filename: libdbus_1.9.14-1_ramips_24kec.ipk
+Size: 103610
+MD5Sum: 6d3981f258821993e0ed76a84dbe00fb
+SHA256sum: 2d95ef33a15f8f0961cfe79acbc1f63c65c666b6754e0e7542bdf2bba9001bbf
+Description:  Simple interprocess messaging system (library)
+
+Package: libexpat
+Version: 2.1.0-3
+Depends: libc
+Source: feeds/packages/libs/expat
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ramips_24kec
+Installed-Size: 52649
+Filename: libexpat_2.1.0-3_ramips_24kec.ipk
+Size: 53247
+MD5Sum: fea652b403ef98b2fac0a049fcf52caa
+SHA256sum: c73b3eaa6682f9ec47df16dec997058667a4e2f5c1cbbde2349bce2d1e016580
+Description:  A fast, non-validating, stream-oriented XML parsing library.
+
+Package: libffi
+Version: 3.0.13-1
+Depends: libc
+Source: feeds/packages/libs/libffi
+License: MIT
+LicenseFiles: LICENSE
+Section: libs
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: ramips_24kec
+Installed-Size: 5313
+Filename: libffi_3.0.13-1_ramips_24kec.ipk
+Size: 6308
+MD5Sum: 7204daaffac0e09243ae5f687b193031
+SHA256sum: f0475170ad86150f012b87d7e9f3c091d2ef11fd7664362234f1cc1b69219ff5
+Description:  The libffi library provides a portable, high level programming interface to
+ various calling conventions. This allows a programmer to call any function
+ specified by a call interface description at run-time.
+ 
+ FFI stands for Foreign Function Interface. A foreign function interface is the
+ popular name for the interface that allows code written in one language to call
+ code written in another language. The libffi library really only provides the
+ lowest, machine dependent layer of a fully featured foreign function interface.
+ A layer must exist above libffi that handles type conversions for values passed
+ between the two languages.
+
+Package: libmosquitto
+Version: 1.4-2
+Depends: libc, libpthread, librt, libcares, libopenssl
+Source: feeds/packages/net/mosquitto
+License: BSD-3-Clause
+LicenseFiles: LICENSE.txt
+Section: libs
+Require-User: mosquitto=200:mosquitto=200
+Maintainer: Karl Palsson <karlp@remake.is>
+Architecture: ramips_24kec
+Installed-Size: 20178
+Filename: libmosquitto_1.4-2_ramips_24kec.ipk
+Size: 21119
+MD5Sum: 53a3815251b10ec4ee64e5949a37a9c2
+SHA256sum: 0225b2f34720be5492d0f3690dcb72c7a03c64924040e14ad3b0ac1ea7837f76
+Description:  Library required for mosquitto's command line client tools, also for
+ use by any third party software that wants to communicate with a
+ mosquitto server.
+ 
+ Should be useable for communicating with any MQTT v3.1/3.1.1 compatible
+ server, such as IBM's RSMB, in addition to Mosquitto
+ This package is built with SSL support
+
+Package: libwebsockets-openssl
+Version: 1.3-chrome37-firefox30-1
+Depends: libc, zlib, libopenssl
+Source: feeds/packages/libs/libwebsockets
+License: LGPL-2.1+exception
+LicenseFiles: LICENSE
+Section: libs
+Architecture: ramips_24kec
+Installed-Size: 34052
+Filename: libwebsockets-openssl_1.3-chrome37-firefox30-1_ramips_24kec.ipk
+Size: 34875
+MD5Sum: 1f45acfeba6c6606faac48dc7c8cd87b
+SHA256sum: a93d617705ba87f260fd9f1caa9f4c5a90f5567f3cde689f3f400c26d4d9741c
+Description:  libwebsockets (OpenSSL)
+
+Package: mosquitto-client
+Version: 1.4-2
+Depends: libc, librt, libuuid, libcares, libmosquitto
+Source: feeds/packages/net/mosquitto
+License: BSD-3-Clause
+LicenseFiles: LICENSE.txt
+Section: net
+Require-User: mosquitto=200:mosquitto=200
+Maintainer: Karl Palsson <karlp@remake.is>
+Architecture: ramips_24kec
+Installed-Size: 15240
+Filename: mosquitto-client_1.4-2_ramips_24kec.ipk
+Size: 15967
+MD5Sum: 777196a9e8fed1e1b1fb773f93967b8d
+SHA256sum: 94ae787a4b2afa9e4557d200f4a3dc58c168fdf09e47de771804d05d3985d3ea
+Description:  Command line client tools for publishing messages to MQTT servers
+ and subscribing to topics.
+ This package is built with SSL support
+
+Package: mosquitto
+Version: 1.4-2
+Depends: libc, librt, libuuid, libopenssl, libwebsockets-openssl
+Source: feeds/packages/net/mosquitto
+License: BSD-3-Clause
+LicenseFiles: LICENSE.txt
+Section: net
+Require-User: mosquitto=200:mosquitto=200
+Maintainer: Karl Palsson <karlp@remake.is>
+Architecture: ramips_24kec
+Installed-Size: 66259
+Filename: mosquitto_1.4-2_ramips_24kec.ipk
+Size: 67178
+MD5Sum: 6406cbf88e3326d720441690dec88e70
+SHA256sum: 653522812b3448490c3635e13ab60e5f17998914158425e4de28ba67886977df
+Description:  Mosquitto is an open source (BSD licensed) message broker that implements
+ the MQTT protocol version 3.1 and 3.1.1. MQTT provides a lightweight
+ method of carrying out messaging using a publish/subscribe model.
+ 
+ This package also includes some basic support for configuring via UCI
+ This package is built with SSL support
+

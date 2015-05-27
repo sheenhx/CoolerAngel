@@ -1,0 +1,10 @@
+Package: kmod-ppp
+Version: 3.18.7-1
+Depends: kernel (=3.18.7-1-00d6aefc02081c1135a1bf6c00ed2c22), kmod-lib-crc-ccitt, kmod-slhc
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ramips_24kec
+Installed-Size: 20401
+Description:  Kernel modules for PPP support

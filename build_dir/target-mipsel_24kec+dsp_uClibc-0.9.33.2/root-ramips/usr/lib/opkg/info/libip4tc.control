@@ -1,0 +1,9 @@
+Package: libip4tc
+Version: 1.4.21-1
+Depends: libc
+Source: package/network/utils/iptables
+License: GPL-2.0
+Section: libs
+Architecture: ramips_24kec
+Installed-Size: 10075
+Description:  IPv4 firewall - shared libiptc library

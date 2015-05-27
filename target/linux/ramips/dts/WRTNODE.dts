@@ -1,0 +1,125 @@
+/dts-v1/;
+
+/include/ "mt7620n.dtsi"
+
+/ {
+	compatible = "wrtnode", "ralink,mt7620n-soc";
+	model = "WRTNODE";
+
+	palmbus@10000000 {
+		gpio0: gpio@600 {
+			#interrupt-cells = <2>;
+		};
+		gpio1: gpio@638 {
+			status = "okay";
+		};
+		gpio2: gpio@660 {
+			status = "okay";
+		};
+
+		gpio3: gpio@688 {
+			status = "okay";
+		};
+
+		i2c@900 {
+			compatible = "ralink,mt7620n-i2c", "ralink,rt2880-i2c";
+			reg = <0x900 0x100>;
+
+			resets = <&rstctrl 16>;
+			reset-name = "i2c";
+
+			#address-cells = <1>;
+			#size-cells = <0>;
+
+			pinctrl-names = "default";
+			pinctrl-0 = <&i2c_pins>;
+
+			status = "okay";
+
+		};
+
+		spi@b00 {
+			status = "okay";
+			compatible =  "ralink,mt7620a-spi", "ralink,rt5350-spi";
+			m25p80@0 {
+				#address-cells = <1>;
+				#size-cells = <1>;
+				compatible = "mx25l12805d";
+				reg = <0 0>;
+				linux,modalias = "m25p80", "w25q128";
+				spi-max-frequency = <10000000>;
+
+				partition@0 {
+					label = "u-boot";
+					reg = <0x0 0x30000>;
+					read-only;
+				};
+
+				partition@30000 {
+					label = "u-boot-env";
+					reg = <0x30000 0x10000>;
+					read-only;
+				};
+
+				factory: partition@40000 {
+					label = "factory";
+					reg = <0x40000 0x10000>;
+					read-only;
+				};
+
+				partition@50000 {
+					label = "firmware";
+					reg = <0x50000 0xfb0000>;
+				};
+			};
+
+
+		};
+	};
+
+	ehci@101c0000 {
+		status = "okay";
+	};
+
+	ohci@101c1000 {
+		status = "okay";
+	};
+
+	ethernet@10100000 {
+		mtd-mac-address = <&factory 0x4>;
+		ralink,port-map = "wllll";
+	};
+
+	wmac@10180000 {
+		ralink,mtd-eeprom = <&factory 0>;
+	};	
+
+	pinctrl {
+
+		state_default: pinctrl0 {
+			default {
+				ralink,group =  "ephy", "wled", "pa", "wdt", "uartf";
+				ralink,function = "gpio";
+			};
+		};
+		i2c_pins: i2c {
+			i2c {
+				ralink,group = "i2c";
+				ralink,function = "i2c";
+			};
+		};
+		spi_pins: spi {
+			spi {
+				ralink,group = "spi";
+				ralink,function = "spi";
+			};
+			cs1 {
+				ralink,group = "spi refclk";
+				ralink,function = "spi refclk";
+ 			};
+		};
+		
+	};
+
+};
+

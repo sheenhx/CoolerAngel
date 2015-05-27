@@ -1,0 +1,13 @@
+prefix=/home/sheen/nfc/usr
+exec_prefix=/home/sheen/nfc/usr
+libdir=${prefix}/lib
+includedir=${prefix}/include
+pkglibdir=@pkglibdir@
+plugindir=${pkglibdir}/plugins
+
+Name: neard
+Description: NFC daemon
+Requires: glib-2.0 >= 2.28 dbus-1 >= 1.2 libnl-3.0 libnl-genl-3.0
+Version: 0.15
+Libs: -module -avoid-version -export-symbols-regex neard_plugin_desc
+Cflags: -I${includedir}

@@ -1,0 +1,10 @@
+Package: kernel
+Version: 3.18.7-1-00d6aefc02081c1135a1bf6c00ed2c22
+Depends: libc
+Source: package/kernel/linux
+License: GPLv2
+Section: sys
+Status: unknown hold not-installed
+Architecture: ramips_24kec
+Installed-Size: 105
+Description:  Virtual kernel package

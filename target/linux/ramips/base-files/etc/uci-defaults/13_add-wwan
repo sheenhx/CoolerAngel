@@ -1,0 +1,29 @@
+#!/bin/sh
+#
+# Copyright (C) 2012 OpenWrt.org
+#
+. /lib/functions.sh
+. /lib/ramips.sh
+. /lib/functions/system.sh
+
+ucidef_add_interface() {
+	local cfg=$1
+	local proto=$2
+
+	uci batch <<EOF
+set network.$cfg='interface'
+set network.$cfg.proto='$proto'
+EOF
+}
+
+board=$(ramips_board_name)
+
+case "$board" in
+wrtnode | \
+wt3020 | \
+ur-326n4g | \
+zbt-wa05)
+	ucidef_add_interface "wwan" "dhcp"
+	/etc/init.d/disable enable
+	;;
+esac

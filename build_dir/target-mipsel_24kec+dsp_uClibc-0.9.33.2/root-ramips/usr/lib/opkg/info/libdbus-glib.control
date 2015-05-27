@@ -1,0 +1,8 @@
+Package: libdbus-glib
+Version: 0.80-1
+Depends: libc, libdbus, glib2
+Source: feeds/oldpackages/libs/dbus-glib
+Section: libs
+Architecture: ramips_24kec
+Installed-Size: 42150
+Description:  D-Bus Glib bindings

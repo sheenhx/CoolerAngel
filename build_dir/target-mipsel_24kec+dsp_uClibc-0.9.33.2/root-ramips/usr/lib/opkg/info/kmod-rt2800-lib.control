@@ -1,0 +1,9 @@
+Package: kmod-rt2800-lib
+Version: 3.18.7+2014-11-04-1
+Depends: kernel (=3.18.7-1-00d6aefc02081c1135a1bf6c00ed2c22), kmod-rt2x00-lib, kmod-lib-crc-ccitt
+Source: package/kernel/mac80211
+Section: kernel
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ramips_24kec
+Installed-Size: 38145
+Description:  Ralink Drivers for RT2x00 cards (rt2800 LIB)

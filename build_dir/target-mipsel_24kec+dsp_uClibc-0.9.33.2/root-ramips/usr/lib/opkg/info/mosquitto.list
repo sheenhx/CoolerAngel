@@ -1,0 +1,5 @@
+/etc/init.d/mosquitto
+/etc/mosquitto/mosquitto.conf
+/usr/sbin/mosquitto
+/lib/upgrade/keep.d/mosquitto
+/usr/bin/mosquitto.uci.convert

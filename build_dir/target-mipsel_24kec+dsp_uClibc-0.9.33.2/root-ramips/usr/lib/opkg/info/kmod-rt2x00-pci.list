@@ -1,0 +1,2 @@
+/etc/modules.d/rt2x00-pci
+/lib/modules/3.18.7/rt2x00pci.ko
