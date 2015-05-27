@@ -3,21 +3,21 @@ Version: 2014-04-11.1-1
 Depends: libc, libuci, liblua
 Status: install user installed
 Architecture: ramips_24kec
-Installed-Time: 1432643336
+Installed-Time: 1432729162
 
 Package: iwinfo
 Version: 2015-01-04-c9fd399316003040825dfbd9700488b621bd990e
 Depends: libc, libiwinfo
 Status: install user installed
 Architecture: ramips_24kec
-Installed-Time: 1432643334
+Installed-Time: 1432729160
 
 Package: libmosquitto
 Version: 1.4-2
 Depends: libc, libpthread, librt, libcares, libopenssl
 Status: install user installed
 Architecture: ramips_24kec
-Installed-Time: 1432643335
+Installed-Time: 1432729161
 
 Package: libc
 Version: 0.9.33.2-1
@@ -25,7 +25,7 @@ Depends: libgcc
 Status: install hold,user installed
 Essential: yes
 Architecture: ramips_24kec
-Installed-Time: 1432643329
+Installed-Time: 1432729158
 
 Package: opkg
 Version: 9c97d5ecd795709c8584e972bfdf3aee3a5b846d-7
@@ -34,14 +34,14 @@ Status: install user installed
 Architecture: ramips_24kec
 Conffiles:
  /etc/opkg.conf cdce92bd8cd6c9d5e37b30e22c3a70dd
-Installed-Time: 1432643337
+Installed-Time: 1432729163
 
 Package: kmod-usb-core
 Version: 3.18.7-1
 Depends: kernel (= 3.18.7-1-00d6aefc02081c1135a1bf6c00ed2c22), kmod-nls-base
 Status: install hold,user installed
 Architecture: ramips_24kec
-Installed-Time: 1432643334
+Installed-Time: 1432729160
 Auto-Installed: yes
 
 Package: libpthread
@@ -50,7 +50,7 @@ Depends: libgcc
 Status: install hold installed
 Essential: yes
 Architecture: ramips_24kec
-Installed-Time: 1432643330
+Installed-Time: 1432729161
 Auto-Installed: yes
 
 Package: ubus
@@ -58,7 +58,7 @@ Version: 2015-01-22-2d660c519d2fcff95248da9f4fd9b37d61f9eb09
 Depends: libc, libubus, libblobmsg-json, ubusd
 Status: install ok installed
 Architecture: ramips_24kec
-Installed-Time: 1432643329
+Installed-Time: 1432729158
 Auto-Installed: yes
 
 Package: iw
@@ -66,15 +66,8 @@ Version: 3.15-1
 Depends: libc, libnl-tiny
 Status: install ok installed
 Architecture: ramips_24kec
-Installed-Time: 1432643335
+Installed-Time: 1432729161
 Auto-Installed: yes
-
-Package: python-codecs
-Version: 2.7.9-5
-Depends: libc, python-light
-Status: install user installed
-Architecture: ramips_24kec
-Installed-Time: 1432643339
 
 Package: rpcd
 Version: 2015-02-09-7b7f254682d24aee497a545a3e20cdaf7cec4f22
@@ -83,7 +76,7 @@ Status: install user installed
 Architecture: ramips_24kec
 Conffiles:
  /etc/config/rpcd 3763b1801f6e39c19141f15514c622e4
-Installed-Time: 1432643336
+Installed-Time: 1432729162
 Auto-Installed: yes
 
 Package: busybox
@@ -92,21 +85,21 @@ Depends: libc
 Status: install user installed
 Essential: yes
 Architecture: ramips_24kec
-Installed-Time: 1432643330
+Installed-Time: 1432729159
 
 Package: odhcpd
 Version: 2014-11-06-3b628005e66e90770b2757a4a02c1dee25ccb883
 Depends: libc, libubox, libuci, libubus
 Status: install user installed
 Architecture: ramips_24kec
-Installed-Time: 1432643337
+Installed-Time: 1432729163
 
 Package: luci-lib-ip
 Version: git-15.090.50849-576e235-1
 Depends: libc, liblua, libnl-tiny
 Status: install user installed
 Architecture: ramips_24kec
-Installed-Time: 1432643336
+Installed-Time: 1432729162
 Auto-Installed: yes
 
 Package: mosquitto-client
@@ -114,59 +107,35 @@ Version: 1.4-2
 Depends: libc, librt, libuuid, libcares, libmosquitto
 Status: install user installed
 Architecture: ramips_24kec
-Installed-Time: 1432643336
+Installed-Time: 1432729163
 
 Package: libubus-lua
 Version: 2015-01-22-2d660c519d2fcff95248da9f4fd9b37d61f9eb09
 Depends: libc, libubus, liblua
 Status: install user installed
 Architecture: ramips_24kec
-Installed-Time: 1432643336
-
-Package: glib2
-Version: 2.43.4-1
-Depends: libc, zlib, libpthread, libffi, libattr
-Status: install user installed
-Architecture: ramips_24kec
-Installed-Time: 1432643333
-Auto-Installed: yes
+Installed-Time: 1432729162
 
 Package: libiwinfo-lua
 Version: 2015-01-04-c9fd399316003040825dfbd9700488b621bd990e
 Depends: libc, libiwinfo, liblua
 Status: install user installed
 Architecture: ramips_24kec
-Installed-Time: 1432643335
+Installed-Time: 1432729161
 
 Package: swconfig
 Version: 10
 Depends: libc, libuci, libnl-tiny
 Status: install user installed
 Architecture: ramips_24kec
-Installed-Time: 1432643339
+Installed-Time: 1432729163
 
 Package: libiwinfo
 Version: 2015-01-04-c9fd399316003040825dfbd9700488b621bd990e
 Depends: libc, libnl-tiny, libuci
 Status: install user installed
 Architecture: ramips_24kec
-Installed-Time: 1432643334
-Auto-Installed: yes
-
-Package: libdbus
-Version: 1.9.14-1
-Depends: libc, libpthread
-Status: install user installed
-Architecture: ramips_24kec
-Installed-Time: 1432643330
-Auto-Installed: yes
-
-Package: python-expat
-Version: 2.7.3-2
-Depends: libc, python-mini, libexpat
-Status: install ok installed
-Architecture: ramips_24kec
-Installed-Time: 1432643332
+Installed-Time: 1432729160
 Auto-Installed: yes
 
 Package: kmod-lib-crc-ccitt
@@ -174,7 +143,7 @@ Version: 3.18.7-1
 Depends: kernel (= 3.18.7-1-00d6aefc02081c1135a1bf6c00ed2c22)
 Status: install hold installed
 Architecture: ramips_24kec
-Installed-Time: 1432643335
+Installed-Time: 1432729161
 Auto-Installed: yes
 
 Package: kmod-ledtrig-usbdev
@@ -182,14 +151,14 @@ Version: 3.18.7-1
 Depends: kernel (= 3.18.7-1-00d6aefc02081c1135a1bf6c00ed2c22), kmod-usb-core
 Status: install hold,user installed
 Architecture: ramips_24kec
-Installed-Time: 1432643334
+Installed-Time: 1432729160
 
 Package: luci-theme-bootstrap
 Version: git-15.090.50849-576e235-1
 Depends: libc
 Status: install user installed
 Architecture: all
-Installed-Time: 1432643336
+Installed-Time: 1432729162
 Auto-Installed: yes
 
 Package: kmod-nf-nathelper
@@ -197,14 +166,14 @@ Version: 3.18.7-1
 Depends: kernel (= 3.18.7-1-00d6aefc02081c1135a1bf6c00ed2c22), kmod-nf-nat
 Status: install hold,user installed
 Architecture: ramips_24kec
-Installed-Time: 1432643334
+Installed-Time: 1432729160
 
 Package: kmod-pppoe
 Version: 3.18.7-1
 Depends: kernel (= 3.18.7-1-00d6aefc02081c1135a1bf6c00ed2c22), kmod-ppp, kmod-pppox
 Status: install hold installed
 Architecture: ramips_24kec
-Installed-Time: 1432643337
+Installed-Time: 1432729163
 Auto-Installed: yes
 
 Package: kmod-pppox
@@ -212,7 +181,7 @@ Version: 3.18.7-1
 Depends: kernel (= 3.18.7-1-00d6aefc02081c1135a1bf6c00ed2c22), kmod-ppp
 Status: install hold installed
 Architecture: ramips_24kec
-Installed-Time: 1432643337
+Installed-Time: 1432729163
 Auto-Installed: yes
 
 Package: kmod-ipt-conntrack
@@ -220,7 +189,7 @@ Version: 3.18.7-1
 Depends: kernel (= 3.18.7-1-00d6aefc02081c1135a1bf6c00ed2c22), kmod-ipt-core, kmod-nf-conntrack
 Status: install hold installed
 Architecture: ramips_24kec
-Installed-Time: 1432643334
+Installed-Time: 1432729160
 Auto-Installed: yes
 
 Package: base-files
@@ -240,29 +209,22 @@ Conffiles:
  /etc/rc.local 6f8bfdaf36d3ec4aa9be6e96fa61d32b
  /etc/sysupgrade.conf f91aef484370cefee501d64b5725c1d2
  /etc/config/system 0d4e53488a0a5d2a1d55753e0eeb8fab
-Installed-Time: 1432643330
+Installed-Time: 1432729158
 
 Package: kmod-nf-nat
 Version: 3.18.7-1
 Depends: kernel (= 3.18.7-1-00d6aefc02081c1135a1bf6c00ed2c22), kmod-nf-conntrack, kmod-nf-ipt
 Status: install hold installed
 Architecture: ramips_24kec
-Installed-Time: 1432643333
+Installed-Time: 1432729159
 Auto-Installed: yes
-
-Package: dbus-python
-Version: 0.83.0-3
-Depends: libc, python, python-expat, libdbus-glib
-Status: install user installed
-Architecture: ramips_24kec
-Installed-Time: 1432643333
 
 Package: kmod-rt2800-lib
 Version: 3.18.7+2014-11-04-1
 Depends: kernel (= 3.18.7-1-00d6aefc02081c1135a1bf6c00ed2c22), kmod-rt2x00-lib, kmod-lib-crc-ccitt
 Status: install ok installed
 Architecture: ramips_24kec
-Installed-Time: 1432643335
+Installed-Time: 1432729161
 Auto-Installed: yes
 
 Package: netifd
@@ -270,15 +232,7 @@ Version: 2015-02-17-4d84111e1014c817653db92bcd8024ff1935b6be
 Depends: libc, libuci, libnl-tiny, libubus, ubus, ubusd, jshn, libubox
 Status: install user installed
 Architecture: ramips_24kec
-Installed-Time: 1432643329
-Auto-Installed: yes
-
-Package: python-light
-Version: 2.7.9-5
-Depends: libc, python-base, libffi, libbz2
-Status: install ok installed
-Architecture: ramips_24kec
-Installed-Time: 1432643338
+Installed-Time: 1432729158
 Auto-Installed: yes
 
 Package: kmod-usb-ohci
@@ -286,7 +240,7 @@ Version: 3.18.7-1
 Depends: kernel (= 3.18.7-1-00d6aefc02081c1135a1bf6c00ed2c22), kmod-usb-core
 Status: install hold,user installed
 Architecture: ramips_24kec
-Installed-Time: 1432643335
+Installed-Time: 1432729161
 
 Package: dnsmasq
 Version: 2.72-4
@@ -296,14 +250,14 @@ Architecture: ramips_24kec
 Conffiles:
  /etc/config/dhcp 0b92d4d21a937adcefb8d6b8a3f9998a
  /etc/dnsmasq.conf 7cf378e58d3fe5db31f4116a16c15c61
-Installed-Time: 1432643333
+Installed-Time: 1432729159
 
 Package: procd
 Version: 2015-02-15-7676df3226da5391c2dfda2ed29a40500e04e15b
 Depends: libc, ubusd, ubus, libjson-script, ubox, libubox, libubus
 Status: install ok installed
 Architecture: ramips_24kec
-Installed-Time: 1432643329
+Installed-Time: 1432729158
 Auto-Installed: yes
 
 Package: ubusd
@@ -311,7 +265,7 @@ Version: 2015-01-22-2d660c519d2fcff95248da9f4fd9b37d61f9eb09
 Depends: libc, libubox
 Status: install ok installed
 Architecture: ramips_24kec
-Installed-Time: 1432643329
+Installed-Time: 1432729158
 Auto-Installed: yes
 
 Package: kmod-rt2x00-lib
@@ -319,7 +273,7 @@ Version: 3.18.7+2014-11-04-1
 Depends: kernel (= 3.18.7-1-00d6aefc02081c1135a1bf6c00ed2c22), kmod-mac80211, kmod-lib-crc-itu-t
 Status: install ok installed
 Architecture: ramips_24kec
-Installed-Time: 1432643334
+Installed-Time: 1432729160
 Auto-Installed: yes
 
 Package: kmod-rt2800-pci
@@ -327,43 +281,28 @@ Version: 3.18.7+2014-11-04-1
 Depends: kernel (= 3.18.7-1-00d6aefc02081c1135a1bf6c00ed2c22), kmod-rt2x00-pci, kmod-rt2800-lib, kmod-rt2800-mmio
 Status: install user installed
 Architecture: ramips_24kec
-Installed-Time: 1432643335
-
-Package: python
-Version: 2.7.3-2
-Depends: libc, libpthread, zlib, libffi, python-mini
-Status: install ok installed
-Architecture: ramips_24kec
-Installed-Time: 1432643331
-Auto-Installed: yes
+Installed-Time: 1432729161
 
 Package: kmod-i2c-ralink
 Version: 3.18.7-1
 Depends: kernel (= 3.18.7-1-00d6aefc02081c1135a1bf6c00ed2c22), kmod-i2c-core
 Status: install hold,user installed
 Architecture: ramips_24kec
-Installed-Time: 1432643334
-
-Package: python-base
-Version: 2.7.9-5
-Depends: libc, libpthread, zlib
-Status: install user installed
-Architecture: ramips_24kec
-Installed-Time: 1432643337
+Installed-Time: 1432729160
 
 Package: kmod-i2c-core
 Version: 3.18.7-1
 Depends: kernel (= 3.18.7-1-00d6aefc02081c1135a1bf6c00ed2c22)
 Status: install hold,user installed
 Architecture: ramips_24kec
-Installed-Time: 1432643334
+Installed-Time: 1432729160
 
 Package: kmod-rt2x00-pci
 Version: 3.18.7+2014-11-04-1
 Depends: kernel (= 3.18.7-1-00d6aefc02081c1135a1bf6c00ed2c22), kmod-rt2x00-mmio, kmod-rt2x00-lib
 Status: install ok installed
 Architecture: ramips_24kec
-Installed-Time: 1432643334
+Installed-Time: 1432729160
 Auto-Installed: yes
 
 Package: kmod-usb2
@@ -371,7 +310,7 @@ Version: 3.18.7-1
 Depends: kernel (= 3.18.7-1-00d6aefc02081c1135a1bf6c00ed2c22), kmod-usb-core
 Status: install hold,user installed
 Architecture: ramips_24kec
-Installed-Time: 1432643335
+Installed-Time: 1432729161
 
 Package: firewall
 Version: 2015-01-08
@@ -381,14 +320,14 @@ Architecture: ramips_24kec
 Conffiles:
  /etc/config/firewall 4b0dd660a6b4beb3c07859ace27f405c
  /etc/firewall.user f482960e5c24821f077e601d9a7f3068
-Installed-Time: 1432643333
+Installed-Time: 1432729159
 
 Package: luci-app-firewall
 Version: git-15.090.50849-576e235-1
 Depends: libc, firewall
 Status: install user installed
 Architecture: all
-Installed-Time: 1432643336
+Installed-Time: 1432729162
 Auto-Installed: yes
 
 Package: kmod-nf-ipt
@@ -396,7 +335,7 @@ Version: 3.18.7-1
 Depends: kernel (= 3.18.7-1-00d6aefc02081c1135a1bf6c00ed2c22)
 Status: install hold installed
 Architecture: ramips_24kec
-Installed-Time: 1432643333
+Installed-Time: 1432729159
 Auto-Installed: yes
 
 Package: libuci
@@ -404,7 +343,7 @@ Version: 2014-04-11.1-1
 Depends: libc, libubox
 Status: install ok installed
 Architecture: ramips_24kec
-Installed-Time: 1432643329
+Installed-Time: 1432729158
 Auto-Installed: yes
 
 Package: liblua
@@ -412,7 +351,7 @@ Version: 5.1.5-1
 Depends: libc
 Status: install user installed
 Architecture: ramips_24kec
-Installed-Time: 1432643335
+Installed-Time: 1432729160
 Auto-Installed: yes
 
 Package: libip4tc
@@ -420,7 +359,7 @@ Version: 1.4.21-1
 Depends: libc
 Status: install ok installed
 Architecture: ramips_24kec
-Installed-Time: 1432643333
+Installed-Time: 1432729159
 Auto-Installed: yes
 
 Package: kmod-ip6tables
@@ -428,75 +367,80 @@ Version: 3.18.7-1
 Depends: kernel (= 3.18.7-1-00d6aefc02081c1135a1bf6c00ed2c22), kmod-nf-ipt6, kmod-ipt-core, kmod-ipt-conntrack
 Status: install hold installed
 Architecture: ramips_24kec
-Installed-Time: 1432643333
+Installed-Time: 1432729159
 Auto-Installed: yes
+
+Package: lua-mosquitto
+Version: 0.1-1
+Depends: libc, libmosquitto, lua
+Status: install user installed
+Architecture: ramips_24kec
+Installed-Time: 1432729162
 
 Package: odhcp6c
 Version: 2014-12-10-722226c4f1d45c8bf4ac9189523738abcf7d648f
 Depends: libc, kmod-ipv6
 Status: install user installed
 Architecture: ramips_24kec
-Installed-Time: 1432643336
+Installed-Time: 1432729163
 
 Package: fstools
 Version: 2015-01-28-6a448a100c7ce8b8b85f262ba1258e54363da9cc
 Depends: libc, ubox
 Status: install user installed
 Architecture: ramips_24kec
-Installed-Time: 1432643333
+Installed-Time: 1432729159
+
+Package: json4lua
+Version: 0.9.53-1
+Depends: libc, lua, luasocket
+Status: install user installed
+Architecture: ramips_24kec
+Installed-Time: 1432729160
 
 Package: spidev-test
 Version: 3.18.7-3.18.7
 Depends: libc, kmod-spi-dev
 Status: install user installed
 Architecture: ramips_24kec
-Installed-Time: 1432643339
+Installed-Time: 1432729163
 
 Package: uci
 Version: 2014-04-11.1-1
 Depends: libc, libuci
 Status: install user installed
 Architecture: ramips_24kec
-Installed-Time: 1432643339
+Installed-Time: 1432729163
 
 Package: lua
 Version: 5.1.5-1
 Depends: libc, liblua
 Status: install user installed
 Architecture: ramips_24kec
-Installed-Time: 1432643336
+Installed-Time: 1432729160
+Auto-Installed: yes
 
 Package: libwebsockets-openssl
 Version: 1.3-chrome37-firefox30-1
 Depends: libc, zlib, libopenssl
 Status: install user installed
 Architecture: ramips_24kec
-Installed-Time: 1432643336
+Installed-Time: 1432729162
 
 Package: wpad-mini
 Version: 2014-10-25-1
 Depends: libc, libnl-tiny, libubus
 Status: install user installed
 Architecture: ramips_24kec
-Installed-Time: 1432643339
+Installed-Time: 1432729163
 
 Package: kmod-rt2800-mmio
 Version: 3.18.7+2014-11-04-1
 Depends: kernel (= 3.18.7-1-00d6aefc02081c1135a1bf6c00ed2c22), kmod-rt2800-lib, kmod-rt2x00-mmio
 Status: install ok installed
 Architecture: ramips_24kec
-Installed-Time: 1432643335
+Installed-Time: 1432729161
 Auto-Installed: yes
-
-Package: dbus
-Version: 1.9.14-1
-Depends: libc, libexpat, libdbus
-Status: install user installed
-Architecture: ramips_24kec
-Conffiles:
- /etc/dbus-1/session.conf e88aa2383587cc773443d9be08e5a838
- /etc/dbus-1/system.conf ef8405a602d61af40dd7253bb8a78091
-Installed-Time: 1432643330
 
 Package: dropbear
 Version: 2014.65-2
@@ -507,44 +451,43 @@ Conffiles:
  /etc/dropbear/dropbear_rsa_host_key d41d8cd98f00b204e9800998ecf8427e
  /etc/dropbear/dropbear_dss_host_key d41d8cd98f00b204e9800998ecf8427e
  /etc/config/dropbear 4ff9c827d4f95ca5082a5520c03e1419
-Installed-Time: 1432643333
-
-Package: libdbus-glib
-Version: 0.80-1
-Depends: libc, libdbus, glib2
-Status: install user installed
-Architecture: ramips_24kec
-Installed-Time: 1432643332
-Auto-Installed: yes
+Installed-Time: 1432729159
 
 Package: libnl
 Version: 3.2.21-1
 Depends: libc, libpthread
 Status: install user installed
 Architecture: ramips_24kec
-Installed-Time: 1432643336
+Installed-Time: 1432729162
 
 Package: kmod-crypto-aes
 Version: 3.18.7-1
 Depends: kernel (= 3.18.7-1-00d6aefc02081c1135a1bf6c00ed2c22), kmod-crypto-core
 Status: install hold installed
 Architecture: ramips_24kec
-Installed-Time: 1432643334
+Installed-Time: 1432729160
 Auto-Installed: yes
+
+Package: luai2c
+Version: 1.0.0-2
+Depends: libc, liblua, kmod-i2c-core
+Status: install user installed
+Architecture: ramips_24kec
+Installed-Time: 1432729162
 
 Package: mtd
 Version: 20
 Depends: libc, libubox
 Status: install user installed
 Architecture: ramips_24kec
-Installed-Time: 1432643336
+Installed-Time: 1432729163
 
 Package: kmod-crypto-core
 Version: 3.18.7-1
 Depends: kernel (= 3.18.7-1-00d6aefc02081c1135a1bf6c00ed2c22)
 Status: install hold installed
 Architecture: ramips_24kec
-Installed-Time: 1432643334
+Installed-Time: 1432729160
 Auto-Installed: yes
 
 Package: libjson-c
@@ -552,7 +495,7 @@ Version: 0.11-2
 Depends: libc
 Status: install ok installed
 Architecture: ramips_24kec
-Installed-Time: 1432643329
+Installed-Time: 1432729158
 Auto-Installed: yes
 
 Package: libgcc
@@ -560,7 +503,7 @@ Version: 4.8-linaro-1
 Status: install hold,user installed
 Essential: yes
 Architecture: ramips_24kec
-Installed-Time: 1432643329
+Installed-Time: 1432729158
 Auto-Installed: yes
 
 Package: kmod-rt2x00-mmio
@@ -568,7 +511,7 @@ Version: 3.18.7+2014-11-04-1
 Depends: kernel (= 3.18.7-1-00d6aefc02081c1135a1bf6c00ed2c22), kmod-rt2x00-lib, kmod-eeprom-93cx6
 Status: install ok installed
 Architecture: ramips_24kec
-Installed-Time: 1432643334
+Installed-Time: 1432729160
 Auto-Installed: yes
 
 Package: libip6tc
@@ -576,7 +519,7 @@ Version: 1.4.21-1
 Depends: libc
 Status: install ok installed
 Architecture: ramips_24kec
-Installed-Time: 1432643333
+Installed-Time: 1432729159
 Auto-Installed: yes
 
 Package: luci-proto-ppp
@@ -584,7 +527,7 @@ Version: git-15.090.50849-576e235-1
 Depends: libc
 Status: install user installed
 Architecture: all
-Installed-Time: 1432643336
+Installed-Time: 1432729162
 Auto-Installed: yes
 
 Package: libffi
@@ -592,15 +535,14 @@ Version: 3.0.13-1
 Depends: libc
 Status: install user installed
 Architecture: ramips_24kec
-Installed-Time: 1432643331
-Auto-Installed: yes
+Installed-Time: 1432729161
 
 Package: libuuid
 Version: 2.25.2-4
 Depends: libc
 Status: install user installed
 Architecture: ramips_24kec
-Installed-Time: 1432643336
+Installed-Time: 1432729162
 
 Package: ppp
 Version: 2.4.7-5
@@ -611,14 +553,14 @@ Conffiles:
  /etc/ppp/chap-secrets e29cbe6021f13bd9b14d780a80f188ab
  /etc/ppp/filter 16b01d9201be60c9d1f16dd98f449484
  /etc/ppp/options 77741c792e70b6c733e6b09be0abfecc
-Installed-Time: 1432643337
+Installed-Time: 1432729163
 
 Package: luci-mod-admin-full
 Version: git-15.090.50849-576e235-1
 Depends: libc, luci-base, libubus-lua
 Status: install user installed
 Architecture: ramips_24kec
-Installed-Time: 1432643336
+Installed-Time: 1432729162
 Auto-Installed: yes
 
 Package: libubox
@@ -626,7 +568,7 @@ Version: 2015-01-28-827ad8337e88ec9e0bf73a8af1d6cf8555e8ef3d
 Depends: libc
 Status: install ok installed
 Architecture: ramips_24kec
-Installed-Time: 1432643329
+Installed-Time: 1432729158
 Auto-Installed: yes
 
 Package: luci-base
@@ -634,7 +576,7 @@ Version: git-15.090.50849-576e235-1
 Depends: libc, lua, libuci-lua, luci-lib-nixio, luci-lib-ip, rpcd
 Status: install user installed
 Architecture: ramips_24kec
-Installed-Time: 1432643336
+Installed-Time: 1432729162
 Auto-Installed: yes
 
 Package: kmod-leds-gpio
@@ -642,14 +584,14 @@ Version: 3.18.7-1
 Depends: kernel (= 3.18.7-1-00d6aefc02081c1135a1bf6c00ed2c22)
 Status: install hold,user installed
 Architecture: ramips_24kec
-Installed-Time: 1432643334
+Installed-Time: 1432729160
 
 Package: kmod-gpio-button-hotplug
 Version: 3.18.7-1
 Depends: kernel (= 3.18.7-1-00d6aefc02081c1135a1bf6c00ed2c22)
 Status: install user installed
 Architecture: ramips_24kec
-Installed-Time: 1432643334
+Installed-Time: 1432729160
 
 Package: librt
 Version: 0.9.33.2-1
@@ -657,7 +599,7 @@ Depends: libpthread
 Status: install hold,user installed
 Essential: yes
 Architecture: ramips_24kec
-Installed-Time: 1432643335
+Installed-Time: 1432729161
 Auto-Installed: yes
 
 Package: kmod-mac80211
@@ -665,7 +607,7 @@ Version: 3.18.7+2014-11-04-1
 Depends: kernel (= 3.18.7-1-00d6aefc02081c1135a1bf6c00ed2c22), kmod-crypto-core, kmod-crypto-arc4, kmod-crypto-aes, kmod-cfg80211, hostapd-common
 Status: install ok installed
 Architecture: ramips_24kec
-Installed-Time: 1432643334
+Installed-Time: 1432729160
 Auto-Installed: yes
 
 Package: libjson-script
@@ -673,7 +615,7 @@ Version: 2015-01-28-827ad8337e88ec9e0bf73a8af1d6cf8555e8ef3d
 Depends: libc, libubox
 Status: install ok installed
 Architecture: ramips_24kec
-Installed-Time: 1432643330
+Installed-Time: 1432729158
 Auto-Installed: yes
 
 Package: libblobmsg-json
@@ -681,7 +623,7 @@ Version: 2015-01-28-827ad8337e88ec9e0bf73a8af1d6cf8555e8ef3d
 Depends: libc, libjson-c, libubox
 Status: install ok installed
 Architecture: ramips_24kec
-Installed-Time: 1432643329
+Installed-Time: 1432729158
 Auto-Installed: yes
 
 Package: iptables
@@ -689,7 +631,7 @@ Version: 1.4.21-1
 Depends: libc, kmod-ipt-core, libip4tc, libip6tc, libxtables
 Status: install user installed
 Architecture: ramips_24kec
-Installed-Time: 1432643334
+Installed-Time: 1432729160
 Auto-Installed: yes
 
 Package: jshn
@@ -697,7 +639,7 @@ Version: 2015-01-28-827ad8337e88ec9e0bf73a8af1d6cf8555e8ef3d
 Depends: libc, libjson-c, libubox, libblobmsg-json
 Status: install ok installed
 Architecture: ramips_24kec
-Installed-Time: 1432643329
+Installed-Time: 1432729158
 Auto-Installed: yes
 
 Package: kmod-ipt-core
@@ -705,7 +647,7 @@ Version: 3.18.7-1
 Depends: kernel (= 3.18.7-1-00d6aefc02081c1135a1bf6c00ed2c22), kmod-nf-ipt
 Status: install hold installed
 Architecture: ramips_24kec
-Installed-Time: 1432643333
+Installed-Time: 1432729159
 Auto-Installed: yes
 
 Package: kmod-ipv6
@@ -713,7 +655,7 @@ Version: 3.18.7-1
 Depends: kernel (= 3.18.7-1-00d6aefc02081c1135a1bf6c00ed2c22)
 Status: install hold installed
 Architecture: ramips_24kec
-Installed-Time: 1432643333
+Installed-Time: 1432729160
 Auto-Installed: yes
 
 Package: libcares
@@ -721,30 +663,15 @@ Version: 1.10.0-1
 Depends: libc
 Status: install user installed
 Architecture: ramips_24kec
-Installed-Time: 1432643335
+Installed-Time: 1432729161
 
 Package: kmod-ppp
 Version: 3.18.7-1
 Depends: kernel (= 3.18.7-1-00d6aefc02081c1135a1bf6c00ed2c22), kmod-lib-crc-ccitt, kmod-slhc
 Status: install hold installed
 Architecture: ramips_24kec
-Installed-Time: 1432643337
+Installed-Time: 1432729163
 Auto-Installed: yes
-
-Package: python-mini
-Version: 2.7.3-2
-Depends: libc, libpthread, zlib
-Status: install ok installed
-Architecture: ramips_24kec
-Installed-Time: 1432643332
-Auto-Installed: yes
-
-Package: python-openssl
-Version: 2.7.9-5
-Depends: libc, python-light, libopenssl
-Status: install user installed
-Architecture: ramips_24kec
-Installed-Time: 1432643339
 
 Package: mosquitto
 Version: 1.4-2
@@ -753,14 +680,14 @@ Status: install user installed
 Architecture: ramips_24kec
 Conffiles:
  /etc/mosquitto/mosquitto.conf a066eab74037cc021dc4b613a186e508
-Installed-Time: 1432643336
+Installed-Time: 1432729162
 
 Package: libubus
 Version: 2015-01-22-2d660c519d2fcff95248da9f4fd9b37d61f9eb09
 Depends: libc, libubox
 Status: install ok installed
 Architecture: ramips_24kec
-Installed-Time: 1432643329
+Installed-Time: 1432729158
 Auto-Installed: yes
 
 Package: uhttpd
@@ -770,7 +697,7 @@ Status: install user installed
 Architecture: ramips_24kec
 Conffiles:
  /etc/config/uhttpd 76707e34feb9eca63bd06fed926efd8d
-Installed-Time: 1432643336
+Installed-Time: 1432729162
 Auto-Installed: yes
 
 Package: kmod-nf-conntrack
@@ -778,7 +705,7 @@ Version: 3.18.7-1
 Depends: kernel (= 3.18.7-1-00d6aefc02081c1135a1bf6c00ed2c22)
 Status: install hold installed
 Architecture: ramips_24kec
-Installed-Time: 1432643333
+Installed-Time: 1432729159
 Auto-Installed: yes
 
 Package: libxtables
@@ -786,7 +713,7 @@ Version: 1.4.21-1
 Depends: libc
 Status: install ok installed
 Architecture: ramips_24kec
-Installed-Time: 1432643333
+Installed-Time: 1432729159
 Auto-Installed: yes
 
 Package: ip6tables
@@ -794,14 +721,14 @@ Version: 1.4.21-1
 Depends: libc, kmod-ip6tables, iptables
 Status: install user installed
 Architecture: ramips_24kec
-Installed-Time: 1432643334
+Installed-Time: 1432729160
 
 Package: zlib
 Version: 1.2.8-1
 Depends: libc
 Status: install ok installed
 Architecture: ramips_24kec
-Installed-Time: 1432643331
+Installed-Time: 1432729161
 Auto-Installed: yes
 
 Package: kmod-nf-ipt6
@@ -809,7 +736,7 @@ Version: 3.18.7-1
 Depends: kernel (= 3.18.7-1-00d6aefc02081c1135a1bf6c00ed2c22), kmod-nf-ipt, kmod-nf-conntrack6
 Status: install hold installed
 Architecture: ramips_24kec
-Installed-Time: 1432643333
+Installed-Time: 1432729159
 Auto-Installed: yes
 
 Package: luci-lib-nixio
@@ -817,7 +744,7 @@ Version: git-15.090.50849-576e235-1
 Depends: libc, liblua
 Status: install user installed
 Architecture: ramips_24kec
-Installed-Time: 1432643336
+Installed-Time: 1432729162
 Auto-Installed: yes
 
 Package: luci
@@ -825,22 +752,14 @@ Version: git-15.090.50849-576e235-1
 Depends: libc, uhttpd, uhttpd-mod-ubus, luci-mod-admin-full, luci-theme-bootstrap, luci-app-firewall, luci-proto-ppp, libiwinfo-lua
 Status: install user installed
 Architecture: all
-Installed-Time: 1432643336
+Installed-Time: 1432729162
 
 Package: kmod-nf-conntrack6
 Version: 3.18.7-1
 Depends: kernel (= 3.18.7-1-00d6aefc02081c1135a1bf6c00ed2c22), kmod-ipv6, kmod-nf-conntrack
 Status: install hold installed
 Architecture: ramips_24kec
-Installed-Time: 1432643333
-Auto-Installed: yes
-
-Package: libexpat
-Version: 2.1.0-3
-Depends: libc
-Status: install ok installed
-Architecture: ramips_24kec
-Installed-Time: 1432643330
+Installed-Time: 1432729159
 Auto-Installed: yes
 
 Package: kmod-rt2800-soc
@@ -848,14 +767,14 @@ Version: 3.18.7+2014-11-04-1
 Depends: kernel (= 3.18.7-1-00d6aefc02081c1135a1bf6c00ed2c22), kmod-rt2800-mmio, kmod-rt2800-lib
 Status: install user installed
 Architecture: ramips_24kec
-Installed-Time: 1432643335
+Installed-Time: 1432729161
 
 Package: ubox
 Version: 2014-10-06-0b274c16a3f9d235735a4b84215071e1e004caa9
 Depends: libc, libubox, ubusd, ubus, libubus, libuci
 Status: install ok installed
 Architecture: ramips_24kec
-Installed-Time: 1432643330
+Installed-Time: 1432729158
 Auto-Installed: yes
 
 Package: kernel
@@ -863,22 +782,14 @@ Version: 3.18.7-1-00d6aefc02081c1135a1bf6c00ed2c22
 Depends: libc
 Status: install hold,user installed
 Architecture: ramips_24kec
-Installed-Time: 1432643329
+Installed-Time: 1432729158
 
 Package: libnl-tiny
 Version: 0.1-4
 Depends: libc
 Status: install ok installed
 Architecture: ramips_24kec
-Installed-Time: 1432643329
-Auto-Installed: yes
-
-Package: libbz2
-Version: 1.0.6-2
-Depends: libc
-Status: install ok installed
-Architecture: ramips_24kec
-Installed-Time: 1432643338
+Installed-Time: 1432729158
 Auto-Installed: yes
 
 Package: kmod-nls-base
@@ -886,7 +797,7 @@ Version: 3.18.7-1
 Depends: kernel (= 3.18.7-1-00d6aefc02081c1135a1bf6c00ed2c22)
 Status: install hold installed
 Architecture: ramips_24kec
-Installed-Time: 1432643334
+Installed-Time: 1432729160
 Auto-Installed: yes
 
 Package: uhttpd-mod-ubus
@@ -894,7 +805,7 @@ Version: 2015-01-25.2-db79faae848e9ca5ed1c5b62cdd9d01650687fff
 Depends: libc, uhttpd, libubus, libblobmsg-json
 Status: install user installed
 Architecture: ramips_24kec
-Installed-Time: 1432643336
+Installed-Time: 1432729162
 Auto-Installed: yes
 
 Package: jsonfilter
@@ -902,7 +813,7 @@ Version: 2014-06-19-cdc760c58077f44fc40adbbe41e1556a67c1b9a9
 Depends: libc, libubox, libjson-c
 Status: install ok installed
 Architecture: ramips_24kec
-Installed-Time: 1432643330
+Installed-Time: 1432729158
 Auto-Installed: yes
 
 Package: hostapd-common
@@ -910,7 +821,7 @@ Version: 2014-10-25-1
 Depends: libc
 Status: install ok installed
 Architecture: ramips_24kec
-Installed-Time: 1432643335
+Installed-Time: 1432729161
 Auto-Installed: yes
 
 Package: kmod-eeprom-93cx6
@@ -918,15 +829,22 @@ Version: 3.18.7-1
 Depends: kernel (= 3.18.7-1-00d6aefc02081c1135a1bf6c00ed2c22)
 Status: install hold installed
 Architecture: ramips_24kec
-Installed-Time: 1432643335
+Installed-Time: 1432729161
 Auto-Installed: yes
+
+Package: lua-rs232
+Version: 1.0.3-1
+Depends: libc, lua
+Status: install user installed
+Architecture: ramips_24kec
+Installed-Time: 1432729162
 
 Package: kmod-crypto-arc4
 Version: 3.18.7-1
 Depends: kernel (= 3.18.7-1-00d6aefc02081c1135a1bf6c00ed2c22), kmod-crypto-core
 Status: install hold installed
 Architecture: ramips_24kec
-Installed-Time: 1432643334
+Installed-Time: 1432729160
 Auto-Installed: yes
 
 Package: libattr
@@ -934,15 +852,14 @@ Version: 20150220-1
 Depends: libc
 Status: install user installed
 Architecture: ramips_24kec
-Installed-Time: 1432643333
-Auto-Installed: yes
+Installed-Time: 1432729161
 
 Package: libopenssl
 Version: 1.0.2-2
 Depends: libc, zlib
 Status: install user installed
 Architecture: ramips_24kec
-Installed-Time: 1432643335
+Installed-Time: 1432729161
 Auto-Installed: yes
 
 Package: kmod-slhc
@@ -950,7 +867,7 @@ Version: 3.18.7-1
 Depends: kernel (= 3.18.7-1-00d6aefc02081c1135a1bf6c00ed2c22), kmod-lib-crc-ccitt
 Status: install hold installed
 Architecture: ramips_24kec
-Installed-Time: 1432643337
+Installed-Time: 1432729163
 Auto-Installed: yes
 
 Package: kmod-cfg80211
@@ -958,7 +875,7 @@ Version: 3.18.7+2014-11-04-1
 Depends: kernel (= 3.18.7-1-00d6aefc02081c1135a1bf6c00ed2c22), iw
 Status: install ok installed
 Architecture: ramips_24kec
-Installed-Time: 1432643335
+Installed-Time: 1432729160
 Auto-Installed: yes
 
 Package: ppp-mod-pppoe
@@ -966,21 +883,21 @@ Version: 2.4.7-5
 Depends: libc, kmod-pppoe
 Status: install user installed
 Architecture: ramips_24kec
-Installed-Time: 1432643337
+Installed-Time: 1432729163
 
 Package: kmod-spi-dev
 Version: 3.18.7-1
 Depends: kernel (= 3.18.7-1-00d6aefc02081c1135a1bf6c00ed2c22)
 Status: install hold,user installed
 Architecture: ramips_24kec
-Installed-Time: 1432643335
+Installed-Time: 1432729161
 
 Package: kmod-lib-crc-itu-t
 Version: 3.18.7-1
 Depends: kernel (= 3.18.7-1-00d6aefc02081c1135a1bf6c00ed2c22)
 Status: install hold installed
 Architecture: ramips_24kec
-Installed-Time: 1432643335
+Installed-Time: 1432729161
 Auto-Installed: yes
 
 Package: kmod-ipt-nat
@@ -988,6 +905,6 @@ Version: 3.18.7-1
 Depends: kernel (= 3.18.7-1-00d6aefc02081c1135a1bf6c00ed2c22), kmod-ipt-core, kmod-nf-nat
 Status: install hold installed
 Architecture: ramips_24kec
-Installed-Time: 1432643333
+Installed-Time: 1432729159
 Auto-Installed: yes
 

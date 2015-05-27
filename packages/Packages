@@ -226,6 +226,21 @@ MD5Sum: 9a5e7d15b396ba2b223897aa7490cbcc
 SHA256sum: 40b9c7c5365c0e76346cdfd3962f7f72dddec4f8e2ba55a3868e95ad2425cbb4
 Description:  Library for parsing and generating JSON from shell scripts
 
+Package: json4lua
+Version: 0.9.53-1
+Depends: libc, lua, luasocket
+Source: feeds/packages/lang/json4lua
+License: MIT
+Section: lang
+Maintainer: Amr Hassan <amr.hassan@gmail.com>
+Architecture: ramips_24kec
+Installed-Size: 6490
+Filename: base/json4lua_0.9.53-1_ramips_24kec.ipk
+Size: 7222
+MD5Sum: 52eeacaa6dd0b28f2fe13b6b296e24e7
+SHA256sum: 6a02c7aad8ea0d6f4f774246bb2cc8e4b8cd28d5426ad0d73a409bd41646a807
+Description:  JSON and JSONRPC for Lua
+
 Package: jsonfilter
 Version: 2014-06-19-cdc760c58077f44fc40adbbe41e1556a67c1b9a9
 Depends: libc, libubox, libjson-c
@@ -1290,6 +1305,37 @@ MD5Sum: 75045d79b39d90fd8acff5848c578064
 SHA256sum: 75924b1d7dcd29972b83f432319aa65c77bd087a9e5e3ac59c47ae1fd76f3bfa
 Description:  IPv4/IPv6 firewall - shared xtables library
 
+Package: lua-mosquitto
+Version: 0.1-1
+Depends: libc, libmosquitto, lua
+Source: feeds/packages/lang/lua-mosquitto
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Karl Palsson <karlp@remake.is>
+Architecture: ramips_24kec
+Installed-Size: 5742
+Filename: base/lua-mosquitto_0.1-1_ramips_24kec.ipk
+Size: 6494
+MD5Sum: 38ba7253214712c855fe81d6207fac5f
+SHA256sum: 5b3c776966d6dc4acd8de8a4746475f349389dac17580971a8e64f1a37d7022a
+Description:  Lua bindings to libmosquitto
+
+Package: lua-rs232
+Version: 1.0.3-1
+Depends: libc, lua
+Source: feeds/packages/lang/lua-rs232
+License: MIT
+Section: lang
+Maintainer: Dirk Chang <dirk@kooiot.com>
+Architecture: ramips_24kec
+Installed-Size: 7693
+Filename: base/lua-rs232_1.0.3-1_ramips_24kec.ipk
+Size: 8454
+MD5Sum: 908e8bb134e168c659c1db5c638c1378
+SHA256sum: b60df8632a8552b51033372f6abd720b33e0d7ab50a40c842a764eb0bc636ced
+Description:  multiplatform library for serial communications over RS-232
+
 Package: lua
 Version: 5.1.5-1
 Depends: libc, liblua
@@ -1308,6 +1354,20 @@ Description:  Lua is a powerful light-weight programming language designed for e
  applications. Lua is also frequently used as a general-purpose, stand-alone 
  language. Lua is free software.
  This package contains the Lua language interpreter.
+
+Package: luai2c
+Version: 1.0.0-2
+Depends: libc, liblua, kmod-i2c-core
+Source: feeds/packages/lang/luai2c
+Section: lang
+Maintainer: Frank Edelhaeuser <fedel@users.sourceforge.net>
+Architecture: ramips_24kec
+Installed-Size: 4504
+Filename: base/luai2c_1.0.0-2_ramips_24kec.ipk
+Size: 5267
+MD5Sum: 534946627d4c4c61616c2aa1e93d59de
+SHA256sum: ad00c389d264e490bf86e8e51493cc39cd335d0d9e6a5539f9da157d283e914f
+Description:  This is the Lua binding for I2C. It provides access to I2C slaves supported by the kernel.
 
 Package: mtd
 Version: 20

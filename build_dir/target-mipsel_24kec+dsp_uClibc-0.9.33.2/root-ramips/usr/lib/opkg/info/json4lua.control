@@ -1,0 +1,10 @@
+Package: json4lua
+Version: 0.9.53-1
+Depends: libc, lua, luasocket
+Source: feeds/packages/lang/json4lua
+License: MIT
+Section: lang
+Maintainer: Amr Hassan <amr.hassan@gmail.com>
+Architecture: ramips_24kec
+Installed-Size: 6490
+Description:  JSON and JSONRPC for Lua

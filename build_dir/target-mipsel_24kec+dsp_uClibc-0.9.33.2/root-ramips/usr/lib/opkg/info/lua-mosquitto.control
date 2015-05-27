@@ -1,0 +1,11 @@
+Package: lua-mosquitto
+Version: 0.1-1
+Depends: libc, libmosquitto, lua
+Source: feeds/packages/lang/lua-mosquitto
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Karl Palsson <karlp@remake.is>
+Architecture: ramips_24kec
+Installed-Size: 5742
+Description:  Lua bindings to libmosquitto

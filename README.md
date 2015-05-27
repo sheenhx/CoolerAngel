@@ -9,7 +9,7 @@ Features
 3. SPI deriver integration
 4. Linux 3.18.7 Kernel
 5. mosquitto bridge integration in lua
-6. Lua-uart
+6. Lua-uart, disabled console output
 7. Lua-I2C
 
 Flash the firmware
@@ -74,4 +74,8 @@ Note: a LOW value (0) turns ON an Output, a HIGH (1) turn it OFF.
         cat sys/kernel/debug/gpio
 ------
 
+#Compile the firmware
 
+```
+make image PROFILE=Default PACKAGES="libattr libiwinfo libiwinfo-lua liblua libmosquitto libnl libopenssl libubus-lua librt libcares libffi iwinfo kmod-i2c-core kmod-i2c-ralink kmod-spi-dev libuci-lua libuuid libwebsockets-openssl lua luci luci-app-firewall luci-base luci-lib-ip luci-lib-nixio luci-mod-admin-full luci-proto-ppp luci-theme-bootstrap json4lua lua-mosquitto lua-rs232 luai2c mosquitto mosquitto-client  rpcd spidev-test uhttpd uhttpd-mod-ubus" FILES=files/
+```
